@@ -1,0 +1,11 @@
+const COLORS = {
+  BLACK: '#1C1C1C',
+  WHITE: '#FFFFFF',
+  LIGHT_PINK: '#FEDBDC',
+  PRIMARY_PINK: '#EE2F5E',
+  LIGHT_GREY: '#E8EAEF',
+  PRIMARY_GREY: '#BCCOCE',
+  DARK_GREY: '#474449',
+}
+
+export default COLORS;
