@@ -14,7 +14,7 @@ export default class OutputContainer extends PureComponent<Props> {
   render() {
     const { expression, result } = this.props;
     return (
-      <FlexView flex={3} alignItems='flex-end'>
+      <FlexView gutter flex={3} alignItems='flex-end'>
         <FlexRow flex={6}>
           <Text adjustsFontSizeToFit weight='bold' size='large'>{expression}</Text>
         </FlexRow>
