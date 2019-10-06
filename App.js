@@ -1,14 +1,13 @@
-import React, { Fragment, Component } from 'react';
+import React, { Fragment, PureComponent } from 'react';
 import { SafeAreaView, Platform } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components/native';
 
 import THEME from 'constants/theme';
 
 import {
-  Button, Col, FlatButton, FlexRow, FlexView, Text, Separator,
+  Button, Col, FlatButton, FlexRow, FlexView, Text, GapSeparator,
 } from 'components';
 import LAYOUT from './constants/layout';
-import { GapSeparator } from './components';
 import { InputButtonsContainer, OutputContainer } from 'containers';
 import { CLEAR, ERROR_MESSAGE, EQUALS } from './constants/misc';
 
@@ -21,7 +20,7 @@ const LargeGap = styled(FlexView)`
   flex: 1;
 `
 const MAX_LENGTH = 57
-export default class App extends Component {
+export default class App extends PureComponent {
   constructor(props){
     super(props);
     this.state = {

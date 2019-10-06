@@ -1,0 +1,803 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders a text of size large and weight bold 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Text)
+    label="Test text"
+    size="large"
+    weight="bold"
+  >
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Text)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  font-size: ",
+              [Function],
+              ";
+  line-height: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  text-align: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "propTypes": Object {
+            "accessible": [Function],
+            "adjustsFontSizeToFit": [Function],
+            "allowFontScaling": [Function],
+            "disabled": [Function],
+            "ellipsizeMode": [Function],
+            "maxFontSizeMultiplier": [Function],
+            "minimumFontScale": [Function],
+            "nativeID": [Function],
+            "numberOfLines": [Function],
+            "onLayout": [Function],
+            "onLongPress": [Function],
+            "onPress": [Function],
+            "pressRetentionOffset": [Function],
+            "selectable": [Function],
+            "selectionColor": [Function],
+            "style": [Function],
+            "suppressHighlighting": [Function],
+            "testID": [Function],
+            "textBreakStrategy": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      label="Test text"
+      size="large"
+      weight="bold"
+    >
+      <Text
+        label="Test text"
+        size="large"
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 60,
+              "fontWeight": "700",
+              "lineHeight": 64,
+              "textAlign": "right",
+            },
+          ]
+        }
+        weight="bold"
+      >
+        <Text
+          label="Test text"
+          size="large"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 60,
+                "fontWeight": "700",
+                "lineHeight": 64,
+                "textAlign": "right",
+              },
+            ]
+          }
+          weight="bold"
+        />
+      </Text>
+    </StyledNativeComponent>
+  </Styled(Text)>
+</ThemeProvider>
+`;
+
+exports[`Text renders a text of size medium and weight semibold 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Text)
+    label="Test text"
+    size="medium"
+    weight="semibold"
+  >
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Text)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  font-size: ",
+              [Function],
+              ";
+  line-height: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  text-align: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "propTypes": Object {
+            "accessible": [Function],
+            "adjustsFontSizeToFit": [Function],
+            "allowFontScaling": [Function],
+            "disabled": [Function],
+            "ellipsizeMode": [Function],
+            "maxFontSizeMultiplier": [Function],
+            "minimumFontScale": [Function],
+            "nativeID": [Function],
+            "numberOfLines": [Function],
+            "onLayout": [Function],
+            "onLongPress": [Function],
+            "onPress": [Function],
+            "pressRetentionOffset": [Function],
+            "selectable": [Function],
+            "selectionColor": [Function],
+            "style": [Function],
+            "suppressHighlighting": [Function],
+            "testID": [Function],
+            "textBreakStrategy": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      label="Test text"
+      size="medium"
+      weight="semibold"
+    >
+      <Text
+        label="Test text"
+        size="medium"
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 40,
+              "fontWeight": "500",
+              "lineHeight": 44,
+              "textAlign": "right",
+            },
+          ]
+        }
+        weight="semibold"
+      >
+        <Text
+          label="Test text"
+          size="medium"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 40,
+                "fontWeight": "500",
+                "lineHeight": 44,
+                "textAlign": "right",
+              },
+            ]
+          }
+          weight="semibold"
+        />
+      </Text>
+    </StyledNativeComponent>
+  </Styled(Text)>
+</ThemeProvider>
+`;
+
+exports[`Text renders a text of type operand 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Text)
+    label="Test text"
+    operand={true}
+  >
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Text)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  font-size: ",
+              [Function],
+              ";
+  line-height: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  text-align: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "propTypes": Object {
+            "accessible": [Function],
+            "adjustsFontSizeToFit": [Function],
+            "allowFontScaling": [Function],
+            "disabled": [Function],
+            "ellipsizeMode": [Function],
+            "maxFontSizeMultiplier": [Function],
+            "minimumFontScale": [Function],
+            "nativeID": [Function],
+            "numberOfLines": [Function],
+            "onLayout": [Function],
+            "onLongPress": [Function],
+            "onPress": [Function],
+            "pressRetentionOffset": [Function],
+            "selectable": [Function],
+            "selectionColor": [Function],
+            "style": [Function],
+            "suppressHighlighting": [Function],
+            "testID": [Function],
+            "textBreakStrategy": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      label="Test text"
+      operand={true}
+    >
+      <Text
+        label="Test text"
+        operand={true}
+        style={
+          Array [
+            Object {
+              "color": "#474449",
+              "fontSize": 25,
+              "fontWeight": "400",
+              "lineHeight": 29,
+              "textAlign": "right",
+            },
+          ]
+        }
+      >
+        <Text
+          label="Test text"
+          operand={true}
+          style={
+            Array [
+              Object {
+                "color": "#474449",
+                "fontSize": 25,
+                "fontWeight": "400",
+                "lineHeight": 29,
+                "textAlign": "right",
+              },
+            ]
+          }
+        />
+      </Text>
+    </StyledNativeComponent>
+  </Styled(Text)>
+</ThemeProvider>
+`;
+
+exports[`Text renders a text of type operator 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Text)
+    label="Test text"
+    operator={true}
+  >
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Text)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  font-size: ",
+              [Function],
+              ";
+  line-height: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  text-align: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "propTypes": Object {
+            "accessible": [Function],
+            "adjustsFontSizeToFit": [Function],
+            "allowFontScaling": [Function],
+            "disabled": [Function],
+            "ellipsizeMode": [Function],
+            "maxFontSizeMultiplier": [Function],
+            "minimumFontScale": [Function],
+            "nativeID": [Function],
+            "numberOfLines": [Function],
+            "onLayout": [Function],
+            "onLongPress": [Function],
+            "onPress": [Function],
+            "pressRetentionOffset": [Function],
+            "selectable": [Function],
+            "selectionColor": [Function],
+            "style": [Function],
+            "suppressHighlighting": [Function],
+            "testID": [Function],
+            "textBreakStrategy": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      label="Test text"
+      operator={true}
+    >
+      <Text
+        label="Test text"
+        operator={true}
+        style={
+          Array [
+            Object {
+              "color": "#EE2F5E",
+              "fontSize": 25,
+              "fontWeight": "400",
+              "lineHeight": 29,
+              "textAlign": "right",
+            },
+          ]
+        }
+      >
+        <Text
+          label="Test text"
+          operator={true}
+          style={
+            Array [
+              Object {
+                "color": "#EE2F5E",
+                "fontSize": 25,
+                "fontWeight": "400",
+                "lineHeight": 29,
+                "textAlign": "right",
+              },
+            ]
+          }
+        />
+      </Text>
+    </StyledNativeComponent>
+  </Styled(Text)>
+</ThemeProvider>
+`;
+
+exports[`Text renders a text of type result 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Text)
+    label="Test text"
+    result={true}
+  >
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Text)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  font-size: ",
+              [Function],
+              ";
+  line-height: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  text-align: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "propTypes": Object {
+            "accessible": [Function],
+            "adjustsFontSizeToFit": [Function],
+            "allowFontScaling": [Function],
+            "disabled": [Function],
+            "ellipsizeMode": [Function],
+            "maxFontSizeMultiplier": [Function],
+            "minimumFontScale": [Function],
+            "nativeID": [Function],
+            "numberOfLines": [Function],
+            "onLayout": [Function],
+            "onLongPress": [Function],
+            "onPress": [Function],
+            "pressRetentionOffset": [Function],
+            "selectable": [Function],
+            "selectionColor": [Function],
+            "style": [Function],
+            "suppressHighlighting": [Function],
+            "testID": [Function],
+            "textBreakStrategy": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      label="Test text"
+      result={true}
+    >
+      <Text
+        label="Test text"
+        result={true}
+        style={
+          Array [
+            Object {
+              "color": "#E8EAEF",
+              "fontSize": 25,
+              "fontWeight": "400",
+              "lineHeight": 29,
+              "textAlign": "right",
+            },
+          ]
+        }
+      >
+        <Text
+          label="Test text"
+          result={true}
+          style={
+            Array [
+              Object {
+                "color": "#E8EAEF",
+                "fontSize": 25,
+                "fontWeight": "400",
+                "lineHeight": 29,
+                "textAlign": "right",
+              },
+            ]
+          }
+        />
+      </Text>
+    </StyledNativeComponent>
+  </Styled(Text)>
+</ThemeProvider>
+`;
+
+exports[`Text renders a text with default styling and size 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Text)
+    label="Test text"
+  >
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Text)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  font-size: ",
+              [Function],
+              ";
+  line-height: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  text-align: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "propTypes": Object {
+            "accessible": [Function],
+            "adjustsFontSizeToFit": [Function],
+            "allowFontScaling": [Function],
+            "disabled": [Function],
+            "ellipsizeMode": [Function],
+            "maxFontSizeMultiplier": [Function],
+            "minimumFontScale": [Function],
+            "nativeID": [Function],
+            "numberOfLines": [Function],
+            "onLayout": [Function],
+            "onLongPress": [Function],
+            "onPress": [Function],
+            "pressRetentionOffset": [Function],
+            "selectable": [Function],
+            "selectionColor": [Function],
+            "style": [Function],
+            "suppressHighlighting": [Function],
+            "testID": [Function],
+            "textBreakStrategy": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      label="Test text"
+    >
+      <Text
+        label="Test text"
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 25,
+              "fontWeight": "400",
+              "lineHeight": 29,
+              "textAlign": "right",
+            },
+          ]
+        }
+      >
+        <Text
+          label="Test text"
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 25,
+                "fontWeight": "400",
+                "lineHeight": 29,
+                "textAlign": "right",
+              },
+            ]
+          }
+        />
+      </Text>
+    </StyledNativeComponent>
+  </Styled(Text)>
+</ThemeProvider>
+`;

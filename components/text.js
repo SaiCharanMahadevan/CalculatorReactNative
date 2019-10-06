@@ -17,11 +17,9 @@ const getTextColor = ({ operator, operand, result, theme: { COLORS } }) => {
 };
 
 export default styled.Text`
-  margin-vertical: ${({ precise, theme: { LAYOUT } }) => (precise ? -LAYOUT.TEXT_PADDING : 0)};
-  padding-horizontal: ${({ gutter }) => gutter || 0};
   font-size: ${({ size, theme: { FONT: { SIZES } } }) => SIZES[size] || SIZES.normal};
   line-height: ${({ size, theme: { FONT: { SIZES }, LAYOUT } }) => ((SIZES[size] || SIZES.normal) + LAYOUT.TEXT_PADDING)};
   color: ${props => getTextColor(props)};
   font-weight: ${({ weight, theme: { FONT: { WEIGHTS } } }) => WEIGHTS[weight] || WEIGHTS.normal};
-  text-align: ${({ align }) => align || 'left'};
+  text-align: ${({ align }) => align || 'right'};
 `;

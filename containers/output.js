@@ -9,11 +9,10 @@ import LAYOUT from 'constants/layout';
 type Props = {
   expression: String,
   result: String,
-  handleFontSize: String,
 }
 export default class OutputContainer extends PureComponent<Props> {
   render() {
-    const { expression, result, handleFontSize } = this.props;
+    const { expression, result } = this.props;
     return (
       <FlexView flex={3} alignItems='flex-end'>
         <FlexRow flex={6}>

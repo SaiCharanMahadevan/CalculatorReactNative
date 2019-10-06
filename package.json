@@ -5,10 +5,13 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
   },
   "dependencies": {
+    "enzyme": "^3.10.0",
     "expo": "^35.0.0",
+    "jest": "^24.9.0",
     "mem": "^4.0.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
@@ -17,7 +20,14 @@
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^7.0.0"
+    "babel-preset-expo": "^7.0.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.2",
+    "jsdom": "^15.1.1",
+    "jsdom-global": "^3.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "private": true
 }

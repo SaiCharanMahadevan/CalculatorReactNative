@@ -32,18 +32,7 @@ export const FlexRow = styled(FlexView)`
   flex-direction: row;
 `;
 
-export const Row = styled(FlexRow)`
-  margin-horizontal: -${({ theme: { LAYOUT } }) => LAYOUT.GUTTER / 2};
-  align-items: ${({ alignItems }) => alignItems || 'flex-start'};
-`;
-
 export const Col = styled.View`
-  ${({ auto }) => auto && css`
-    flex: 0 1 auto;
-  `};
-  ${({ uniform }) => uniform && css`
-    flex: 1;
-  `};
   ${({ align }) => align && css`
     align-self: ${align};
   `};

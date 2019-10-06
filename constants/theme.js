@@ -6,7 +6,6 @@ const THEME = {
   LAYOUT,
   FONT: {
     SIZES: {
-      small: 18,
       normal: 25,
       medium: 40,
       large: 60,

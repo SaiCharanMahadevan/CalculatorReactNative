@@ -1,0 +1,2948 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Col renders a \`styled\` View for Columns with custom styling using available props 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Styled(View))>
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Styled(View))",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  flex-shrink: 1;
+  padding-vertical: ",
+              [Function],
+              ";
+  padding-horizontal: ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+",
+              "
+  flex-direction: row;
+",
+            ],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexShrink": 1,
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexShrink": 1,
+                "paddingHorizontal": 0,
+                "paddingVertical": 0,
+              },
+            ]
+          }
+        >
+          <Styled(View)
+            gutter={10}
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(View)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  padding-horizontal: ",
+                      [Function],
+                      ";
+  padding-vertical: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              gutter={10}
+            >
+              <View
+                gutter={10}
+                style={
+                  Array [
+                    Object {
+                      "paddingHorizontal": 10,
+                      "paddingVertical": 0,
+                    },
+                  ]
+                }
+              >
+                <View
+                  gutter={10}
+                  style={
+                    Array [
+                      Object {
+                        "paddingHorizontal": 10,
+                        "paddingVertical": 0,
+                      },
+                    ]
+                  }
+                >
+                  <Styled(Text)
+                    label="Text 1"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 1"
+                    >
+                      <Text
+                        label="Text 1"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 1"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                  <Styled(Text)
+                    label="Text 2"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 2"
+                    >
+                      <Text
+                        label="Text 2"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 2"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                </View>
+              </View>
+            </StyledNativeComponent>
+          </Styled(View)>
+          <Styled(View)
+            gap={12}
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(View)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  padding-horizontal: ",
+                      [Function],
+                      ";
+  padding-vertical: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              gap={12}
+            >
+              <View
+                gap={12}
+                style={
+                  Array [
+                    Object {
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 12,
+                    },
+                  ]
+                }
+              >
+                <View
+                  gap={12}
+                  style={
+                    Array [
+                      Object {
+                        "paddingHorizontal": 8,
+                        "paddingVertical": 12,
+                      },
+                    ]
+                  }
+                >
+                  <Styled(Text)
+                    label="Text 1"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 1"
+                    >
+                      <Text
+                        label="Text 1"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 1"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                  <Styled(Text)
+                    label="Text 2"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 2"
+                    >
+                      <Text
+                        label="Text 2"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 2"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                </View>
+              </View>
+            </StyledNativeComponent>
+          </Styled(View)>
+        </View>
+      </View>
+    </StyledNativeComponent>
+  </Styled(Styled(View))>
+</ThemeProvider>
+`;
+
+exports[`Col renders a \`styled\` View for Columns with default styling 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Styled(View))>
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Styled(View))",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  flex-shrink: 1;
+  padding-vertical: ",
+              [Function],
+              ";
+  padding-horizontal: ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+",
+              "
+  flex-direction: row;
+",
+            ],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexShrink": 1,
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexShrink": 1,
+                "paddingHorizontal": 0,
+                "paddingVertical": 0,
+              },
+            ]
+          }
+        >
+          <Styled(View)>
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(View)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  padding-horizontal: ",
+                      [Function],
+                      ";
+  padding-vertical: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 0,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingHorizontal": 8,
+                        "paddingVertical": 0,
+                      },
+                    ]
+                  }
+                >
+                  <Styled(Text)
+                    label="Text 1"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 1"
+                    >
+                      <Text
+                        label="Text 1"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 1"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                  <Styled(Text)
+                    label="Text 2"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 2"
+                    >
+                      <Text
+                        label="Text 2"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 2"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                </View>
+              </View>
+            </StyledNativeComponent>
+          </Styled(View)>
+          <Styled(View)>
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(View)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  padding-horizontal: ",
+                      [Function],
+                      ";
+  padding-vertical: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 0,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingHorizontal": 8,
+                        "paddingVertical": 0,
+                      },
+                    ]
+                  }
+                >
+                  <Styled(Text)
+                    label="Text 1"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 1"
+                    >
+                      <Text
+                        label="Text 1"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 1"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                  <Styled(Text)
+                    label="Text 2"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 2"
+                    >
+                      <Text
+                        label="Text 2"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 2"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                </View>
+              </View>
+            </StyledNativeComponent>
+          </Styled(View)>
+        </View>
+      </View>
+    </StyledNativeComponent>
+  </Styled(Styled(View))>
+</ThemeProvider>
+`;
+
+exports[`Col renders a \`styled\` View for Columns with styling using available props 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Styled(View))>
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Styled(View))",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  flex-shrink: 1;
+  padding-vertical: ",
+              [Function],
+              ";
+  padding-horizontal: ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+",
+              "
+  flex-direction: row;
+",
+            ],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexShrink": 1,
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexShrink": 1,
+                "paddingHorizontal": 0,
+                "paddingVertical": 0,
+              },
+            ]
+          }
+        >
+          <Styled(View)
+            align="auto"
+            alignItems="center"
+          >
+            <StyledNativeComponent
+              align="auto"
+              alignItems="center"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(View)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  padding-horizontal: ",
+                      [Function],
+                      ";
+  padding-vertical: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <View
+                align="auto"
+                alignItems="center"
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "auto",
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 0,
+                    },
+                  ]
+                }
+              >
+                <View
+                  align="auto"
+                  alignItems="center"
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "alignSelf": "auto",
+                        "paddingHorizontal": 8,
+                        "paddingVertical": 0,
+                      },
+                    ]
+                  }
+                >
+                  <Styled(Text)
+                    label="Text 1"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 1"
+                    >
+                      <Text
+                        label="Text 1"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 1"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                  <Styled(Text)
+                    label="Text 2"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 2"
+                    >
+                      <Text
+                        label="Text 2"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 2"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                </View>
+              </View>
+            </StyledNativeComponent>
+          </Styled(View)>
+          <Styled(View)
+            gap={true}
+            gutter={10}
+            justify="center"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(View)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  ",
+                      [Function],
+                      ";
+  padding-horizontal: ",
+                      [Function],
+                      ";
+  padding-vertical: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              gap={true}
+              gutter={10}
+              justify="center"
+            >
+              <View
+                gap={true}
+                gutter={10}
+                justify="center"
+                style={
+                  Array [
+                    Object {
+                      "justifyContent": "center",
+                      "paddingHorizontal": 10,
+                      "paddingVertical": 12,
+                    },
+                  ]
+                }
+              >
+                <View
+                  gap={true}
+                  gutter={10}
+                  justify="center"
+                  style={
+                    Array [
+                      Object {
+                        "justifyContent": "center",
+                        "paddingHorizontal": 10,
+                        "paddingVertical": 12,
+                      },
+                    ]
+                  }
+                >
+                  <Styled(Text)
+                    label="Text 1"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 1"
+                    >
+                      <Text
+                        label="Text 1"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 1"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                  <Styled(Text)
+                    label="Text 2"
+                  >
+                    <StyledNativeComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "displayName": "Styled(Text)",
+                          "inlineStyle": InlineStyle {
+                            "rules": Array [
+                              "
+  font-size: ",
+                              [Function],
+                              ";
+  line-height: ",
+                              [Function],
+                              ";
+  color: ",
+                              [Function],
+                              ";
+  font-weight: ",
+                              [Function],
+                              ";
+  text-align: ",
+                              [Function],
+                              ";
+",
+                            ],
+                          },
+                          "propTypes": Object {
+                            "accessible": [Function],
+                            "adjustsFontSizeToFit": [Function],
+                            "allowFontScaling": [Function],
+                            "disabled": [Function],
+                            "ellipsizeMode": [Function],
+                            "maxFontSizeMultiplier": [Function],
+                            "minimumFontScale": [Function],
+                            "nativeID": [Function],
+                            "numberOfLines": [Function],
+                            "onLayout": [Function],
+                            "onLongPress": [Function],
+                            "onPress": [Function],
+                            "pressRetentionOffset": [Function],
+                            "selectable": [Function],
+                            "selectionColor": [Function],
+                            "style": [Function],
+                            "suppressHighlighting": [Function],
+                            "testID": [Function],
+                            "textBreakStrategy": [Function],
+                          },
+                          "render": [Function],
+                          "styledComponentId": "StyledNativeComponent",
+                          "target": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      label="Text 2"
+                    >
+                      <Text
+                        label="Text 2"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#FFFFFF",
+                              "fontSize": 25,
+                              "fontWeight": "400",
+                              "lineHeight": 29,
+                              "textAlign": "right",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          label="Text 2"
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        />
+                      </Text>
+                    </StyledNativeComponent>
+                  </Styled(Text)>
+                </View>
+              </View>
+            </StyledNativeComponent>
+          </Styled(View)>
+        </View>
+      </View>
+    </StyledNativeComponent>
+  </Styled(Styled(View))>
+</ThemeProvider>
+`;
+
+exports[`FlexRow renders a \`styled\` FlexView for Rows 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Styled(View))>
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Styled(View))",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  flex-shrink: 1;
+  padding-vertical: ",
+              [Function],
+              ";
+  padding-horizontal: ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+",
+              "
+  flex-direction: row;
+",
+            ],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexShrink": 1,
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexShrink": 1,
+                "paddingHorizontal": 0,
+                "paddingVertical": 0,
+              },
+            ]
+          }
+        >
+          <Styled(Text)
+            label="Text 1"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(Text)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  font-size: ",
+                      [Function],
+                      ";
+  line-height: ",
+                      [Function],
+                      ";
+  color: ",
+                      [Function],
+                      ";
+  font-weight: ",
+                      [Function],
+                      ";
+  text-align: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "propTypes": Object {
+                    "accessible": [Function],
+                    "adjustsFontSizeToFit": [Function],
+                    "allowFontScaling": [Function],
+                    "disabled": [Function],
+                    "ellipsizeMode": [Function],
+                    "maxFontSizeMultiplier": [Function],
+                    "minimumFontScale": [Function],
+                    "nativeID": [Function],
+                    "numberOfLines": [Function],
+                    "onLayout": [Function],
+                    "onLongPress": [Function],
+                    "onPress": [Function],
+                    "pressRetentionOffset": [Function],
+                    "selectable": [Function],
+                    "selectionColor": [Function],
+                    "style": [Function],
+                    "suppressHighlighting": [Function],
+                    "testID": [Function],
+                    "textBreakStrategy": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              label="Text 1"
+            >
+              <Text
+                label="Text 1"
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                      "fontWeight": "400",
+                      "lineHeight": 29,
+                      "textAlign": "right",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  label="Text 1"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 25,
+                        "fontWeight": "400",
+                        "lineHeight": 29,
+                        "textAlign": "right",
+                      },
+                    ]
+                  }
+                />
+              </Text>
+            </StyledNativeComponent>
+          </Styled(Text)>
+          <Styled(Text)
+            label="Text 2"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(Text)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  font-size: ",
+                      [Function],
+                      ";
+  line-height: ",
+                      [Function],
+                      ";
+  color: ",
+                      [Function],
+                      ";
+  font-weight: ",
+                      [Function],
+                      ";
+  text-align: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "propTypes": Object {
+                    "accessible": [Function],
+                    "adjustsFontSizeToFit": [Function],
+                    "allowFontScaling": [Function],
+                    "disabled": [Function],
+                    "ellipsizeMode": [Function],
+                    "maxFontSizeMultiplier": [Function],
+                    "minimumFontScale": [Function],
+                    "nativeID": [Function],
+                    "numberOfLines": [Function],
+                    "onLayout": [Function],
+                    "onLongPress": [Function],
+                    "onPress": [Function],
+                    "pressRetentionOffset": [Function],
+                    "selectable": [Function],
+                    "selectionColor": [Function],
+                    "style": [Function],
+                    "suppressHighlighting": [Function],
+                    "testID": [Function],
+                    "textBreakStrategy": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              label="Text 2"
+            >
+              <Text
+                label="Text 2"
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                      "fontWeight": "400",
+                      "lineHeight": 29,
+                      "textAlign": "right",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  label="Text 2"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 25,
+                        "fontWeight": "400",
+                        "lineHeight": 29,
+                        "textAlign": "right",
+                      },
+                    ]
+                  }
+                />
+              </Text>
+            </StyledNativeComponent>
+          </Styled(Text)>
+        </View>
+      </View>
+    </StyledNativeComponent>
+  </Styled(Styled(View))>
+</ThemeProvider>
+`;
+
+exports[`FlexRow renders a \`styled\` FlexView for Rows with available padding options 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(Styled(View))
+    gap={true}
+    gutter={true}
+  >
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(Styled(View))",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  flex-shrink: 1;
+  padding-vertical: ",
+              [Function],
+              ";
+  padding-horizontal: ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+",
+              "
+  flex-direction: row;
+",
+            ],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      gap={true}
+      gutter={true}
+    >
+      <View
+        gap={true}
+        gutter={true}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexShrink": 1,
+              "paddingHorizontal": 16,
+              "paddingVertical": 12,
+            },
+          ]
+        }
+      >
+        <View
+          gap={true}
+          gutter={true}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexShrink": 1,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+              },
+            ]
+          }
+        >
+          <Styled(Text)
+            label="Text 1"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(Text)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  font-size: ",
+                      [Function],
+                      ";
+  line-height: ",
+                      [Function],
+                      ";
+  color: ",
+                      [Function],
+                      ";
+  font-weight: ",
+                      [Function],
+                      ";
+  text-align: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "propTypes": Object {
+                    "accessible": [Function],
+                    "adjustsFontSizeToFit": [Function],
+                    "allowFontScaling": [Function],
+                    "disabled": [Function],
+                    "ellipsizeMode": [Function],
+                    "maxFontSizeMultiplier": [Function],
+                    "minimumFontScale": [Function],
+                    "nativeID": [Function],
+                    "numberOfLines": [Function],
+                    "onLayout": [Function],
+                    "onLongPress": [Function],
+                    "onPress": [Function],
+                    "pressRetentionOffset": [Function],
+                    "selectable": [Function],
+                    "selectionColor": [Function],
+                    "style": [Function],
+                    "suppressHighlighting": [Function],
+                    "testID": [Function],
+                    "textBreakStrategy": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              label="Text 1"
+            >
+              <Text
+                label="Text 1"
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                      "fontWeight": "400",
+                      "lineHeight": 29,
+                      "textAlign": "right",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  label="Text 1"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 25,
+                        "fontWeight": "400",
+                        "lineHeight": 29,
+                        "textAlign": "right",
+                      },
+                    ]
+                  }
+                />
+              </Text>
+            </StyledNativeComponent>
+          </Styled(Text)>
+          <Styled(Text)
+            label="Text 2"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(Text)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  font-size: ",
+                      [Function],
+                      ";
+  line-height: ",
+                      [Function],
+                      ";
+  color: ",
+                      [Function],
+                      ";
+  font-weight: ",
+                      [Function],
+                      ";
+  text-align: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "propTypes": Object {
+                    "accessible": [Function],
+                    "adjustsFontSizeToFit": [Function],
+                    "allowFontScaling": [Function],
+                    "disabled": [Function],
+                    "ellipsizeMode": [Function],
+                    "maxFontSizeMultiplier": [Function],
+                    "minimumFontScale": [Function],
+                    "nativeID": [Function],
+                    "numberOfLines": [Function],
+                    "onLayout": [Function],
+                    "onLongPress": [Function],
+                    "onPress": [Function],
+                    "pressRetentionOffset": [Function],
+                    "selectable": [Function],
+                    "selectionColor": [Function],
+                    "style": [Function],
+                    "suppressHighlighting": [Function],
+                    "testID": [Function],
+                    "textBreakStrategy": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              label="Text 2"
+            >
+              <Text
+                label="Text 2"
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                      "fontWeight": "400",
+                      "lineHeight": 29,
+                      "textAlign": "right",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  label="Text 2"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 25,
+                        "fontWeight": "400",
+                        "lineHeight": 29,
+                        "textAlign": "right",
+                      },
+                    ]
+                  }
+                />
+              </Text>
+            </StyledNativeComponent>
+          </Styled(Text)>
+        </View>
+      </View>
+    </StyledNativeComponent>
+  </Styled(Styled(View))>
+</ThemeProvider>
+`;
+
+exports[`FlexView renders a \`styled\` View with no padding 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(View)>
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(View)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  flex-shrink: 1;
+  padding-vertical: ",
+              [Function],
+              ";
+  padding-horizontal: ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexShrink": 1,
+              "paddingHorizontal": 0,
+              "paddingVertical": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexShrink": 1,
+                "paddingHorizontal": 0,
+                "paddingVertical": 0,
+              },
+            ]
+          }
+        >
+          <Styled(Text)
+            label="Text 1"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(Text)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  font-size: ",
+                      [Function],
+                      ";
+  line-height: ",
+                      [Function],
+                      ";
+  color: ",
+                      [Function],
+                      ";
+  font-weight: ",
+                      [Function],
+                      ";
+  text-align: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "propTypes": Object {
+                    "accessible": [Function],
+                    "adjustsFontSizeToFit": [Function],
+                    "allowFontScaling": [Function],
+                    "disabled": [Function],
+                    "ellipsizeMode": [Function],
+                    "maxFontSizeMultiplier": [Function],
+                    "minimumFontScale": [Function],
+                    "nativeID": [Function],
+                    "numberOfLines": [Function],
+                    "onLayout": [Function],
+                    "onLongPress": [Function],
+                    "onPress": [Function],
+                    "pressRetentionOffset": [Function],
+                    "selectable": [Function],
+                    "selectionColor": [Function],
+                    "style": [Function],
+                    "suppressHighlighting": [Function],
+                    "testID": [Function],
+                    "textBreakStrategy": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              label="Text 1"
+            >
+              <Text
+                label="Text 1"
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                      "fontWeight": "400",
+                      "lineHeight": 29,
+                      "textAlign": "right",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  label="Text 1"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 25,
+                        "fontWeight": "400",
+                        "lineHeight": 29,
+                        "textAlign": "right",
+                      },
+                    ]
+                  }
+                />
+              </Text>
+            </StyledNativeComponent>
+          </Styled(Text)>
+          <Styled(Text)
+            label="Text 2"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(Text)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  font-size: ",
+                      [Function],
+                      ";
+  line-height: ",
+                      [Function],
+                      ";
+  color: ",
+                      [Function],
+                      ";
+  font-weight: ",
+                      [Function],
+                      ";
+  text-align: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "propTypes": Object {
+                    "accessible": [Function],
+                    "adjustsFontSizeToFit": [Function],
+                    "allowFontScaling": [Function],
+                    "disabled": [Function],
+                    "ellipsizeMode": [Function],
+                    "maxFontSizeMultiplier": [Function],
+                    "minimumFontScale": [Function],
+                    "nativeID": [Function],
+                    "numberOfLines": [Function],
+                    "onLayout": [Function],
+                    "onLongPress": [Function],
+                    "onPress": [Function],
+                    "pressRetentionOffset": [Function],
+                    "selectable": [Function],
+                    "selectionColor": [Function],
+                    "style": [Function],
+                    "suppressHighlighting": [Function],
+                    "testID": [Function],
+                    "textBreakStrategy": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              label="Text 2"
+            >
+              <Text
+                label="Text 2"
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                      "fontWeight": "400",
+                      "lineHeight": 29,
+                      "textAlign": "right",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  label="Text 2"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 25,
+                        "fontWeight": "400",
+                        "lineHeight": 29,
+                        "textAlign": "right",
+                      },
+                    ]
+                  }
+                />
+              </Text>
+            </StyledNativeComponent>
+          </Styled(Text)>
+        </View>
+      </View>
+    </StyledNativeComponent>
+  </Styled(View)>
+</ThemeProvider>
+`;
+
+exports[`FlexView renders a \`styled\` View with themed padding 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(View)
+    gap={true}
+    gutter={true}
+  >
+    <StyledNativeComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(View)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  flex-shrink: 1;
+  padding-vertical: ",
+              [Function],
+              ";
+  padding-horizontal: ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+  ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "render": [Function],
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      gap={true}
+      gutter={true}
+    >
+      <View
+        gap={true}
+        gutter={true}
+        style={
+          Array [
+            Object {
+              "flexShrink": 1,
+              "paddingHorizontal": 16,
+              "paddingVertical": 12,
+            },
+          ]
+        }
+      >
+        <View
+          gap={true}
+          gutter={true}
+          style={
+            Array [
+              Object {
+                "flexShrink": 1,
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+              },
+            ]
+          }
+        >
+          <Styled(Text)
+            label="Text 1"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(Text)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  font-size: ",
+                      [Function],
+                      ";
+  line-height: ",
+                      [Function],
+                      ";
+  color: ",
+                      [Function],
+                      ";
+  font-weight: ",
+                      [Function],
+                      ";
+  text-align: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "propTypes": Object {
+                    "accessible": [Function],
+                    "adjustsFontSizeToFit": [Function],
+                    "allowFontScaling": [Function],
+                    "disabled": [Function],
+                    "ellipsizeMode": [Function],
+                    "maxFontSizeMultiplier": [Function],
+                    "minimumFontScale": [Function],
+                    "nativeID": [Function],
+                    "numberOfLines": [Function],
+                    "onLayout": [Function],
+                    "onLongPress": [Function],
+                    "onPress": [Function],
+                    "pressRetentionOffset": [Function],
+                    "selectable": [Function],
+                    "selectionColor": [Function],
+                    "style": [Function],
+                    "suppressHighlighting": [Function],
+                    "testID": [Function],
+                    "textBreakStrategy": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              label="Text 1"
+            >
+              <Text
+                label="Text 1"
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                      "fontWeight": "400",
+                      "lineHeight": 29,
+                      "textAlign": "right",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  label="Text 1"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 25,
+                        "fontWeight": "400",
+                        "lineHeight": 29,
+                        "textAlign": "right",
+                      },
+                    ]
+                  }
+                />
+              </Text>
+            </StyledNativeComponent>
+          </Styled(Text)>
+          <Styled(Text)
+            label="Text 2"
+          >
+            <StyledNativeComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "displayName": "Styled(Text)",
+                  "inlineStyle": InlineStyle {
+                    "rules": Array [
+                      "
+  font-size: ",
+                      [Function],
+                      ";
+  line-height: ",
+                      [Function],
+                      ";
+  color: ",
+                      [Function],
+                      ";
+  font-weight: ",
+                      [Function],
+                      ";
+  text-align: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "propTypes": Object {
+                    "accessible": [Function],
+                    "adjustsFontSizeToFit": [Function],
+                    "allowFontScaling": [Function],
+                    "disabled": [Function],
+                    "ellipsizeMode": [Function],
+                    "maxFontSizeMultiplier": [Function],
+                    "minimumFontScale": [Function],
+                    "nativeID": [Function],
+                    "numberOfLines": [Function],
+                    "onLayout": [Function],
+                    "onLongPress": [Function],
+                    "onPress": [Function],
+                    "pressRetentionOffset": [Function],
+                    "selectable": [Function],
+                    "selectionColor": [Function],
+                    "style": [Function],
+                    "suppressHighlighting": [Function],
+                    "testID": [Function],
+                    "textBreakStrategy": [Function],
+                  },
+                  "render": [Function],
+                  "styledComponentId": "StyledNativeComponent",
+                  "target": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              label="Text 2"
+            >
+              <Text
+                label="Text 2"
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                      "fontWeight": "400",
+                      "lineHeight": 29,
+                      "textAlign": "right",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  label="Text 2"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 25,
+                        "fontWeight": "400",
+                        "lineHeight": 29,
+                        "textAlign": "right",
+                      },
+                    ]
+                  }
+                />
+              </Text>
+            </StyledNativeComponent>
+          </Styled(Text)>
+        </View>
+      </View>
+    </StyledNativeComponent>
+  </Styled(View)>
+</ThemeProvider>
+`;

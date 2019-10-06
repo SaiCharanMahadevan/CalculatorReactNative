@@ -1,0 +1,1102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders a button of type operand 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Button
+    label="Test Button"
+    operator={true}
+  >
+    <TouchableOpacity
+      activeOpacity={0.3}
+      onLongPress={[Function]}
+      onPress={[Function]}
+    >
+      <AnimatedComponent
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            undefined,
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Styled(View)
+              operator={true}
+            >
+              <StyledNativeComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "displayName": "Styled(View)",
+                    "inlineStyle": InlineStyle {
+                      "rules": Array [
+                        "
+  height: ",
+                        [Function],
+                        ";
+  width: ",
+                        [Function],
+                        ";
+  background-color: ",
+                        [Function],
+                        ";
+  padding-horizontal: ",
+                        [Function],
+                        ";
+  padding-vertical: ",
+                        [Function],
+                        ";
+  border-radius: 6;
+  align-items: center;
+  justify-content: center;
+",
+                      ],
+                    },
+                    "render": [Function],
+                    "styledComponentId": "StyledNativeComponent",
+                    "target": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                operator={true}
+              >
+                <View
+                  operator={true}
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FEDBDC",
+                        "borderRadius": 6,
+                        "height": 75,
+                        "justifyContent": "center",
+                        "paddingHorizontal": 16,
+                        "paddingVertical": 12,
+                        "width": 75,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    operator={true}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FEDBDC",
+                          "borderRadius": 6,
+                          "height": 75,
+                          "justifyContent": "center",
+                          "paddingHorizontal": 16,
+                          "paddingVertical": 12,
+                          "width": 75,
+                        },
+                      ]
+                    }
+                  >
+                    <Styled(Text)
+                      operator={true}
+                    >
+                      <StyledNativeComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "displayName": "Styled(Text)",
+                            "inlineStyle": InlineStyle {
+                              "rules": Array [
+                                "
+  font-size: ",
+                                [Function],
+                                ";
+  line-height: ",
+                                [Function],
+                                ";
+  color: ",
+                                [Function],
+                                ";
+  font-weight: ",
+                                [Function],
+                                ";
+  text-align: ",
+                                [Function],
+                                ";
+",
+                              ],
+                            },
+                            "propTypes": Object {
+                              "accessible": [Function],
+                              "adjustsFontSizeToFit": [Function],
+                              "allowFontScaling": [Function],
+                              "disabled": [Function],
+                              "ellipsizeMode": [Function],
+                              "maxFontSizeMultiplier": [Function],
+                              "minimumFontScale": [Function],
+                              "nativeID": [Function],
+                              "numberOfLines": [Function],
+                              "onLayout": [Function],
+                              "onLongPress": [Function],
+                              "onPress": [Function],
+                              "pressRetentionOffset": [Function],
+                              "selectable": [Function],
+                              "selectionColor": [Function],
+                              "style": [Function],
+                              "suppressHighlighting": [Function],
+                              "testID": [Function],
+                              "textBreakStrategy": [Function],
+                            },
+                            "render": [Function],
+                            "styledComponentId": "StyledNativeComponent",
+                            "target": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        operator={true}
+                      >
+                        <Text
+                          operator={true}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#EE2F5E",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        >
+                          <Text
+                            operator={true}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#EE2F5E",
+                                  "fontSize": 25,
+                                  "fontWeight": "400",
+                                  "lineHeight": 29,
+                                  "textAlign": "right",
+                                },
+                              ]
+                            }
+                          >
+                            Test Button
+                          </Text>
+                        </Text>
+                      </StyledNativeComponent>
+                    </Styled(Text)>
+                  </View>
+                </View>
+              </StyledNativeComponent>
+            </Styled(View)>
+          </View>
+        </View>
+      </AnimatedComponent>
+    </TouchableOpacity>
+  </Button>
+</ThemeProvider>
+`;
+
+exports[`Button renders a button of type operator 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Button
+    label="Test Button"
+    operator={true}
+  >
+    <TouchableOpacity
+      activeOpacity={0.3}
+      onLongPress={[Function]}
+      onPress={[Function]}
+    >
+      <AnimatedComponent
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            undefined,
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Styled(View)
+              operator={true}
+            >
+              <StyledNativeComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "displayName": "Styled(View)",
+                    "inlineStyle": InlineStyle {
+                      "rules": Array [
+                        "
+  height: ",
+                        [Function],
+                        ";
+  width: ",
+                        [Function],
+                        ";
+  background-color: ",
+                        [Function],
+                        ";
+  padding-horizontal: ",
+                        [Function],
+                        ";
+  padding-vertical: ",
+                        [Function],
+                        ";
+  border-radius: 6;
+  align-items: center;
+  justify-content: center;
+",
+                      ],
+                    },
+                    "render": [Function],
+                    "styledComponentId": "StyledNativeComponent",
+                    "target": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                operator={true}
+              >
+                <View
+                  operator={true}
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FEDBDC",
+                        "borderRadius": 6,
+                        "height": 75,
+                        "justifyContent": "center",
+                        "paddingHorizontal": 16,
+                        "paddingVertical": 12,
+                        "width": 75,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    operator={true}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FEDBDC",
+                          "borderRadius": 6,
+                          "height": 75,
+                          "justifyContent": "center",
+                          "paddingHorizontal": 16,
+                          "paddingVertical": 12,
+                          "width": 75,
+                        },
+                      ]
+                    }
+                  >
+                    <Styled(Text)
+                      operator={true}
+                    >
+                      <StyledNativeComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "displayName": "Styled(Text)",
+                            "inlineStyle": InlineStyle {
+                              "rules": Array [
+                                "
+  font-size: ",
+                                [Function],
+                                ";
+  line-height: ",
+                                [Function],
+                                ";
+  color: ",
+                                [Function],
+                                ";
+  font-weight: ",
+                                [Function],
+                                ";
+  text-align: ",
+                                [Function],
+                                ";
+",
+                              ],
+                            },
+                            "propTypes": Object {
+                              "accessible": [Function],
+                              "adjustsFontSizeToFit": [Function],
+                              "allowFontScaling": [Function],
+                              "disabled": [Function],
+                              "ellipsizeMode": [Function],
+                              "maxFontSizeMultiplier": [Function],
+                              "minimumFontScale": [Function],
+                              "nativeID": [Function],
+                              "numberOfLines": [Function],
+                              "onLayout": [Function],
+                              "onLongPress": [Function],
+                              "onPress": [Function],
+                              "pressRetentionOffset": [Function],
+                              "selectable": [Function],
+                              "selectionColor": [Function],
+                              "style": [Function],
+                              "suppressHighlighting": [Function],
+                              "testID": [Function],
+                              "textBreakStrategy": [Function],
+                            },
+                            "render": [Function],
+                            "styledComponentId": "StyledNativeComponent",
+                            "target": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        operator={true}
+                      >
+                        <Text
+                          operator={true}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#EE2F5E",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        >
+                          <Text
+                            operator={true}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#EE2F5E",
+                                  "fontSize": 25,
+                                  "fontWeight": "400",
+                                  "lineHeight": 29,
+                                  "textAlign": "right",
+                                },
+                              ]
+                            }
+                          >
+                            Test Button
+                          </Text>
+                        </Text>
+                      </StyledNativeComponent>
+                    </Styled(Text)>
+                  </View>
+                </View>
+              </StyledNativeComponent>
+            </Styled(View)>
+          </View>
+        </View>
+      </AnimatedComponent>
+    </TouchableOpacity>
+  </Button>
+</ThemeProvider>
+`;
+
+exports[`Button renders a button with custom width and padding 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Button
+    gutter={12}
+    label="Test Button"
+    operator={true}
+    width={100}
+  >
+    <TouchableOpacity
+      activeOpacity={0.3}
+      onLongPress={[Function]}
+      onPress={[Function]}
+    >
+      <AnimatedComponent
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            undefined,
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Styled(View)
+              gutter={12}
+              operator={true}
+              width={100}
+            >
+              <StyledNativeComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "displayName": "Styled(View)",
+                    "inlineStyle": InlineStyle {
+                      "rules": Array [
+                        "
+  height: ",
+                        [Function],
+                        ";
+  width: ",
+                        [Function],
+                        ";
+  background-color: ",
+                        [Function],
+                        ";
+  padding-horizontal: ",
+                        [Function],
+                        ";
+  padding-vertical: ",
+                        [Function],
+                        ";
+  border-radius: 6;
+  align-items: center;
+  justify-content: center;
+",
+                      ],
+                    },
+                    "render": [Function],
+                    "styledComponentId": "StyledNativeComponent",
+                    "target": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                gutter={12}
+                operator={true}
+                width={100}
+              >
+                <View
+                  gutter={12}
+                  operator={true}
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FEDBDC",
+                        "borderRadius": 6,
+                        "height": 75,
+                        "justifyContent": "center",
+                        "paddingHorizontal": 12,
+                        "paddingVertical": 12,
+                        "width": 100,
+                      },
+                    ]
+                  }
+                  width={100}
+                >
+                  <View
+                    gutter={12}
+                    operator={true}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FEDBDC",
+                          "borderRadius": 6,
+                          "height": 75,
+                          "justifyContent": "center",
+                          "paddingHorizontal": 12,
+                          "paddingVertical": 12,
+                          "width": 100,
+                        },
+                      ]
+                    }
+                    width={100}
+                  >
+                    <Styled(Text)
+                      gutter={12}
+                      operator={true}
+                      width={100}
+                    >
+                      <StyledNativeComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "displayName": "Styled(Text)",
+                            "inlineStyle": InlineStyle {
+                              "rules": Array [
+                                "
+  font-size: ",
+                                [Function],
+                                ";
+  line-height: ",
+                                [Function],
+                                ";
+  color: ",
+                                [Function],
+                                ";
+  font-weight: ",
+                                [Function],
+                                ";
+  text-align: ",
+                                [Function],
+                                ";
+",
+                              ],
+                            },
+                            "propTypes": Object {
+                              "accessible": [Function],
+                              "adjustsFontSizeToFit": [Function],
+                              "allowFontScaling": [Function],
+                              "disabled": [Function],
+                              "ellipsizeMode": [Function],
+                              "maxFontSizeMultiplier": [Function],
+                              "minimumFontScale": [Function],
+                              "nativeID": [Function],
+                              "numberOfLines": [Function],
+                              "onLayout": [Function],
+                              "onLongPress": [Function],
+                              "onPress": [Function],
+                              "pressRetentionOffset": [Function],
+                              "selectable": [Function],
+                              "selectionColor": [Function],
+                              "style": [Function],
+                              "suppressHighlighting": [Function],
+                              "testID": [Function],
+                              "textBreakStrategy": [Function],
+                            },
+                            "render": [Function],
+                            "styledComponentId": "StyledNativeComponent",
+                            "target": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        gutter={12}
+                        operator={true}
+                        width={100}
+                      >
+                        <Text
+                          gutter={12}
+                          operator={true}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#EE2F5E",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                          width={100}
+                        >
+                          <Text
+                            gutter={12}
+                            operator={true}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#EE2F5E",
+                                  "fontSize": 25,
+                                  "fontWeight": "400",
+                                  "lineHeight": 29,
+                                  "textAlign": "right",
+                                },
+                              ]
+                            }
+                            width={100}
+                          >
+                            Test Button
+                          </Text>
+                        </Text>
+                      </StyledNativeComponent>
+                    </Styled(Text)>
+                  </View>
+                </View>
+              </StyledNativeComponent>
+            </Styled(View)>
+          </View>
+        </View>
+      </AnimatedComponent>
+    </TouchableOpacity>
+  </Button>
+</ThemeProvider>
+`;
+
+exports[`Button renders a button with the specified label along with default props and styling 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Button
+    label="Test Button"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    <TouchableOpacity
+      activeOpacity={0.3}
+      onLongPress={[Function]}
+      onPress={[Function]}
+    >
+      <AnimatedComponent
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            undefined,
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Styled(View)>
+              <StyledNativeComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "displayName": "Styled(View)",
+                    "inlineStyle": InlineStyle {
+                      "rules": Array [
+                        "
+  height: ",
+                        [Function],
+                        ";
+  width: ",
+                        [Function],
+                        ";
+  background-color: ",
+                        [Function],
+                        ";
+  padding-horizontal: ",
+                        [Function],
+                        ";
+  padding-vertical: ",
+                        [Function],
+                        ";
+  border-radius: 6;
+  align-items: center;
+  justify-content: center;
+",
+                      ],
+                    },
+                    "render": [Function],
+                    "styledComponentId": "StyledNativeComponent",
+                    "target": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#EE2F5E",
+                        "borderRadius": 6,
+                        "height": 75,
+                        "justifyContent": "center",
+                        "paddingHorizontal": 16,
+                        "paddingVertical": 12,
+                        "width": 75,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#EE2F5E",
+                          "borderRadius": 6,
+                          "height": 75,
+                          "justifyContent": "center",
+                          "paddingHorizontal": 16,
+                          "paddingVertical": 12,
+                          "width": 75,
+                        },
+                      ]
+                    }
+                  >
+                    <Styled(Text)>
+                      <StyledNativeComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "displayName": "Styled(Text)",
+                            "inlineStyle": InlineStyle {
+                              "rules": Array [
+                                "
+  font-size: ",
+                                [Function],
+                                ";
+  line-height: ",
+                                [Function],
+                                ";
+  color: ",
+                                [Function],
+                                ";
+  font-weight: ",
+                                [Function],
+                                ";
+  text-align: ",
+                                [Function],
+                                ";
+",
+                              ],
+                            },
+                            "propTypes": Object {
+                              "accessible": [Function],
+                              "adjustsFontSizeToFit": [Function],
+                              "allowFontScaling": [Function],
+                              "disabled": [Function],
+                              "ellipsizeMode": [Function],
+                              "maxFontSizeMultiplier": [Function],
+                              "minimumFontScale": [Function],
+                              "nativeID": [Function],
+                              "numberOfLines": [Function],
+                              "onLayout": [Function],
+                              "onLongPress": [Function],
+                              "onPress": [Function],
+                              "pressRetentionOffset": [Function],
+                              "selectable": [Function],
+                              "selectionColor": [Function],
+                              "style": [Function],
+                              "suppressHighlighting": [Function],
+                              "testID": [Function],
+                              "textBreakStrategy": [Function],
+                            },
+                            "render": [Function],
+                            "styledComponentId": "StyledNativeComponent",
+                            "target": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 25,
+                                "fontWeight": "400",
+                                "lineHeight": 29,
+                                "textAlign": "right",
+                              },
+                            ]
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#FFFFFF",
+                                  "fontSize": 25,
+                                  "fontWeight": "400",
+                                  "lineHeight": 29,
+                                  "textAlign": "right",
+                                },
+                              ]
+                            }
+                          >
+                            Test Button
+                          </Text>
+                        </Text>
+                      </StyledNativeComponent>
+                    </Styled(Text)>
+                  </View>
+                </View>
+              </StyledNativeComponent>
+            </Styled(View)>
+          </View>
+        </View>
+      </AnimatedComponent>
+    </TouchableOpacity>
+  </Button>
+</ThemeProvider>
+`;

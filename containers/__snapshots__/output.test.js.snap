@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OutputContainer renders the section that displays the result of the calculation 1`] = `
+<Styled(View)
+  alignItems="flex-end"
+  flex={3}
+>
+  <Styled(Styled(View))
+    flex={6}
+  >
+    <Styled(Text)
+      adjustsFontSizeToFit={true}
+      size="large"
+      weight="bold"
+    >
+      1+2-3
+    </Styled(Text)>
+  </Styled(Styled(View))>
+  <Styled(View) />
+  <Styled(Styled(View))
+    flex={4}
+  >
+    <Styled(Text)
+      adjustsFontSizeToFit={true}
+      result={true}
+      size="medium"
+      weight="semibold"
+    >
+      0
+    </Styled(Text)>
+  </Styled(Styled(View))>
+</Styled(View)>
+`;
