@@ -9,17 +9,22 @@ import { BUTTONS_NUMBERS, BUTTONS_OPERATORS, CLEAR, EQUALS, ZERO } from 'constan
 
 type Props = {
   onButtonPress: () => mixed,
-  onLongPressed: () => mixed,
+  onLongPress: () => mixed,
 }
 export default class InputButtonsContainer extends PureComponent<Props> {
   handleOnPress = (value) => {
     const { onButtonPress } = this.props;
+    requestAnimationFrame(() => {
       onButtonPress(value);
+    });
+      
   }
 
   _handleOnLongPress = (value) => {
-    const { onLongPressed } = this.props;
-      onLongPressed(value);
+    const { onLongPress } = this.props;
+    requestAnimationFrame(() => {
+      onLongPress(value);
+    });
   }
 
   renderClearButton = () => (

@@ -2,14 +2,13 @@ import React, { Fragment, PureComponent } from 'react';
 import { SafeAreaView, Platform } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components/native';
 
-import THEME from 'constants/theme';
-
 import {
   Button, Col, FlatButton, FlexRow, FlexView, Text, GapSeparator,
 } from 'components';
-import LAYOUT from './constants/layout';
-import { InputButtonsContainer, OutputContainer } from 'containers';
-import { CLEAR, ERROR_MESSAGE, EQUALS } from './constants/misc';
+import { InputButtonsContainer, OutputContainer } from 'containers'
+import THEME from 'constants/theme';
+import LAYOUT from 'constants/layout';;
+import { CLEAR, ERROR_MESSAGE, EQUALS } from 'constants/misc';
 
 const Wrapper = styled.SafeAreaView`
   flex: 1;
@@ -77,10 +76,16 @@ export default class App extends PureComponent {
 
   // Handle button press actions
   handleEvent = (value) => {
-    const { expression } = this.state;
+    const { expression, result } = this.state;
     switch(value) {
       case CLEAR:
-        this.replaceLastIndex('');
+        if(result === ERROR_MESSAGE) {
+          this.setState({
+            expression: '',
+          });
+        } else {
+          this.replaceLastIndex('');
+        }
         break;
       case EQUALS:
         this.updateAnswer();
@@ -150,7 +155,7 @@ export default class App extends PureComponent {
           <FlexView flex={1}>
             <LargeGap />
             <OutputContainer expression={expression} result={result}/>
-            <InputButtonsContainer onButtonPress={this.handleEvent} onLongPressed={this.handleLongPress} />
+            <InputButtonsContainer onButtonPress={this.handleEvent} onLongPress={this.handleLongPress} />
           </FlexView>
         </Wrapper>
       </ThemeProvider>

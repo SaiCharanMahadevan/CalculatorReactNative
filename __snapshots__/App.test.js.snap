@@ -1,6 +1,69 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders the Calculator 1`] = `
+exports[`App Functionality:  clears the expression after any next input when the result displays the error message 1`] = `
+Object {
+  "expression": "",
+  "result": "",
+}
+`;
+
+exports[`App Functionality:  does not update the expression if the last and next inputs are invalid  1`] = `
+Object {
+  "expression": "1+",
+  "result": "",
+}
+`;
+
+exports[`App Functionality:  does not update the expression if the last and next inputs are invalid  2`] = `
+Object {
+  "expression": "",
+  "result": "",
+}
+`;
+
+exports[`App Functionality:  removes the last input when CLEAR is pressed 1`] = `
+Object {
+  "expression": "1",
+  "result": "1",
+}
+`;
+
+exports[`App Functionality:  resets input when CLEAR is long pressed 1`] = `
+Object {
+  "expression": "",
+  "result": "",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a number is pressed  1`] = `
+Object {
+  "expression": "1",
+  "result": "1",
+}
+`;
+
+exports[`App Functionality:  updates the expression by replacing the operator if the last input was an operator  1`] = `
+Object {
+  "expression": "1*",
+  "result": "",
+}
+`;
+
+exports[`App Functionality:  updates the expression to handle upto 5 decimals 1`] = `
+Object {
+  "expression": "9÷7",
+  "result": "1.28571",
+}
+`;
+
+exports[`App Functionality:  updates the expression with the result when EQUALS is pressed 1`] = `
+Object {
+  "expression": "4446",
+  "result": "",
+}
+`;
+
+exports[`App UI:  renders the Calculator 1`] = `
 <ThemeProvider
   theme={
     Object {
@@ -48,7 +111,7 @@ exports[`App renders the Calculator 1`] = `
       />
       <InputButtonsContainer
         onButtonPress={[Function]}
-        onClearLongPressed={[Function]}
+        onLongPress={[Function]}
       />
     </Styled(View)>
   </Styled(SafeAreaView)>

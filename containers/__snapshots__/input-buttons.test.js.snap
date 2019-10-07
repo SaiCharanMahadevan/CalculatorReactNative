@@ -1,36 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`InputButtonsContainer calls \`onButtonPress\` with the relevant value when a button is pressed 1`] = `
-[MockFunction] {
-  "calls": Array [
-    Array [
-      "7",
-    ],
-  ],
-  "results": Array [
-    Object {
-      "type": "return",
-      "value": undefined,
-    },
-  ],
-}
-`;
+exports[`InputButtonsContainer calls \`onButtonPress\` with the relevant value when a button is pressed 1`] = `[MockFunction]`;
 
-exports[`InputButtonsContainer calls \`onLongPressed\` with the relevant value when a button is long pressed 1`] = `
-[MockFunction] {
-  "calls": Array [
-    Array [
-      "CLEAR",
-    ],
-  ],
-  "results": Array [
-    Object {
-      "type": "return",
-      "value": undefined,
-    },
-  ],
-}
-`;
+exports[`InputButtonsContainer calls \`onLongPress\` with the relevant value when a button is pressed 1`] = `undefined`;
 
 exports[`InputButtonsContainer renders the section that displays the input operators and operands 1`] = `
 <Styled(View)

@@ -12,20 +12,18 @@ describe('InputButtonsContainer', () => {
   });
 
   test('calls `onButtonPress` with the relevant value when a button is pressed', () => {
-    const sendEventToParentWindowMock = jest.fn();
     const wrapper = shallow(
-      <InputButtonsContainer onButtonPress={jest.fn(()=>{})}/>,
+      <InputButtonsContainer onButtonPress={jest.fn((x)=>x)}/>,
     );
-    let button = wrapper.find('.Button00').props().onPress();
+    let button = wrapper.find('.Button00').props().onPress('7');
     expect(wrapper.instance().props.onButtonPress).toMatchSnapshot();
   });
 
-  test('calls `onLongPressed` with the relevant value when a button is long pressed', () => {
-    const sendEventToParentWindowMock = jest.fn();
+  test('calls `onLongPress` with the relevant value when a button is pressed', () => {
     const wrapper = shallow(
-      <InputButtonsContainer onLongPressed={jest.fn(()=>{})}/>,
+      <InputButtonsContainer onLongPress={jest.fn((x)=>x)}/>,
     );
-    let button = wrapper.find('.clear-button').props().onLongPress();
-    expect(wrapper.instance().props.onLongPressed).toMatchSnapshot();
+    let button = wrapper.find('.clear-button').props().onLongPress('CLEAR');
+    expect(wrapper.instance().props.onButtonPress).toMatchSnapshot();
   });
 });
