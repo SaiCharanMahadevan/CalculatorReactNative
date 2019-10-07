@@ -35,10 +35,73 @@ Object {
 }
 `;
 
-exports[`App Functionality:  updates the expression and result by concatinating the expression when a number is pressed  1`] = `
+exports[`App Functionality:  shows error message when invalid divisions are done 1`] = `
+Object {
+  "expression": "9÷0",
+  "result": "Can't do this!",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  1`] = `
 Object {
   "expression": "1",
   "result": "1",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  2`] = `
+Object {
+  "expression": "1+",
+  "result": "1",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  3`] = `
+Object {
+  "expression": "1+5",
+  "result": "6",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  4`] = `
+Object {
+  "expression": "1+5-",
+  "result": "6",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  5`] = `
+Object {
+  "expression": "1+5-3",
+  "result": "3",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  6`] = `
+Object {
+  "expression": "1+5-3x",
+  "result": "3",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  7`] = `
+Object {
+  "expression": "1+5-3x6",
+  "result": "-12",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  8`] = `
+Object {
+  "expression": "1+5-3x6÷",
+  "result": "-12",
+}
+`;
+
+exports[`App Functionality:  updates the expression and result by concatinating the expression when a valid input is pressed  9`] = `
+Object {
+  "expression": "1+5-3x6÷1",
+  "result": "-12",
 }
 `;
 

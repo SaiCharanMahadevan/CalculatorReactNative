@@ -16,11 +16,27 @@ describe('App UI: ', () => {
 });
 
 describe('App Functionality: ', () => {
-  test('updates the expression and result by concatinating the expression when a number is pressed ', () => {
+  test('updates the expression and result by concatinating the expression when a valid input is pressed ', () => {
     const wrapper = shallow(
       <App />,
     );
   
+    wrapper.instance().handleEvent('1')
+    expect(wrapper.instance().state).toMatchSnapshot();
+    wrapper.instance().handleEvent('+')
+    expect(wrapper.instance().state).toMatchSnapshot();
+    wrapper.instance().handleEvent('5')
+    expect(wrapper.instance().state).toMatchSnapshot();
+    wrapper.instance().handleEvent('-')
+    expect(wrapper.instance().state).toMatchSnapshot();
+    wrapper.instance().handleEvent('3')
+    expect(wrapper.instance().state).toMatchSnapshot();
+    wrapper.instance().handleEvent('x')
+    expect(wrapper.instance().state).toMatchSnapshot();
+    wrapper.instance().handleEvent('6')
+    expect(wrapper.instance().state).toMatchSnapshot();
+    wrapper.instance().handleEvent('÷')
+    expect(wrapper.instance().state).toMatchSnapshot();
     wrapper.instance().handleEvent('1')
     expect(wrapper.instance().state).toMatchSnapshot();
   });
@@ -97,6 +113,16 @@ describe('App Functionality: ', () => {
     
     wrapper.setState({ expression: '9÷' })
     wrapper.instance().handleEvent('7')
+    expect(wrapper.instance().state).toMatchSnapshot();
+  });
+
+  test('shows error message when invalid divisions are done', () => {
+    const wrapper = shallow(
+      <App />,
+    );
+    
+    wrapper.setState({ expression: '9÷' })
+    wrapper.instance().handleEvent('0')
     expect(wrapper.instance().state).toMatchSnapshot();
   });
 });
