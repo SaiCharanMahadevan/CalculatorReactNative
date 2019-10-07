@@ -9,28 +9,25 @@ import { BUTTONS_NUMBERS, BUTTONS_OPERATORS, CLEAR, EQUALS, ZERO } from 'constan
 
 type Props = {
   onButtonPress: () => mixed,
-  onClearLongPressed: () => mixed,
+  onLongPressed: () => mixed,
 }
 export default class InputButtonsContainer extends PureComponent<Props> {
-  _handleOnPress = (value) => {
+  handleOnPress = (value) => {
     const { onButtonPress } = this.props;
-    requestAnimationFrame(() => {
-      onButtonPress(value)
-    })
+      onButtonPress(value);
   }
 
   _handleOnLongPress = (value) => {
-    const { onClearLongPressed } = this.props;
-    requestAnimationFrame(() => {
-      onClearLongPressed(value)
-    })
+    const { onLongPressed } = this.props;
+      onLongPressed(value);
   }
 
   renderClearButton = () => (
     <Col gap>
       <Button
+        className="clear-button"
         label={CLEAR}
-        onPress={() => this._handleOnPress(CLEAR)}
+        onPress={() => this.handleOnPress(CLEAR)}
         onLongPress={() => this._handleOnLongPress(CLEAR)}
         width={LAYOUT.BUTTON_WIDTH * 4.6}
         operator
@@ -48,8 +45,9 @@ export default class InputButtonsContainer extends PureComponent<Props> {
                 row.map((col, i) => (
                   <Col key={i}>
                     <Button
+                      className={`Button${index}${i}`}
                       label={col}
-                      onPress={() => this._handleOnPress(col)}
+                      onPress={() => this.handleOnPress(col)}
                       operand
                     />
                   </Col>
@@ -65,14 +63,14 @@ export default class InputButtonsContainer extends PureComponent<Props> {
           <Button
             label={ZERO}
             width={LAYOUT.BUTTON_WIDTH * 2.2}
-            onPress={() => this._handleOnPress(ZERO)}
+            onPress={() => this.handleOnPress(ZERO)}
             operand
           />
         </Col>
         <Col>
           <Button
             label={EQUALS}
-            onPress={() => this._handleOnPress(EQUALS)}
+            onPress={() => this.handleOnPress(EQUALS)}
           />
         </Col>
       </FlexRow>
@@ -87,7 +85,7 @@ export default class InputButtonsContainer extends PureComponent<Props> {
             <Col>
               <Button
                 label={col}
-                onPress={() => this._handleOnPress(col)}
+                onPress={() => this.handleOnPress(col)}
                 operator
               />
             </Col>
@@ -100,7 +98,7 @@ export default class InputButtonsContainer extends PureComponent<Props> {
 
   render() {
     return (
-        <FlexView flex={6} alignItems='center'>
+        <FlexView className="input-buttons" flex={6} alignItems='center'>
           {this.renderClearButton()}
           <FlexRow>
             {this.renderOperandButtons()}

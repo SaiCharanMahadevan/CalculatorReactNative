@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders the Calculator 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "COLORS": Object {
+        "BLACK": "#1C1C1C",
+        "DARK_GREY": "#474449",
+        "LIGHT_GREY": "#E8EAEF",
+        "LIGHT_PINK": "#FEDBDC",
+        "PRIMARY_GREY": "#BCCOCE",
+        "PRIMARY_PINK": "#EE2F5E",
+        "WHITE": "#FFFFFF",
+      },
+      "FONT": Object {
+        "SIZES": Object {
+          "large": 60,
+          "medium": 40,
+          "normal": 25,
+        },
+        "WEIGHTS": Object {
+          "bold": 700,
+          "normal": 400,
+          "semibold": 500,
+        },
+      },
+      "LAYOUT": Object {
+        "BUTTON_HEIGHT": 75,
+        "BUTTON_WIDTH": 75,
+        "GAP": 12,
+        "GUTTER": 16,
+        "TEXT_PADDING": 4,
+      },
+    }
+  }
+>
+  <Styled(SafeAreaView)
+    isAndroid={false}
+  >
+    <Styled(View)
+      flex={1}
+    >
+      <Styled(Styled(View)) />
+      <OutputContainer
+        expression=""
+        result=""
+      />
+      <InputButtonsContainer
+        onButtonPress={[Function]}
+        onClearLongPressed={[Function]}
+      />
+    </Styled(View)>
+  </Styled(SafeAreaView)>
+</ThemeProvider>
+`;

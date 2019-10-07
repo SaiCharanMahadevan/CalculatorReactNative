@@ -83,7 +83,7 @@ export default class App extends PureComponent {
         this.replaceLastIndex('');
         break;
       case EQUALS:
-        this.showAnswer();
+        this.updateAnswer();
         break;
       default:
         this.updateExpression(value);
@@ -118,7 +118,7 @@ export default class App extends PureComponent {
     })
   }
 
-  showAnswer = () => {
+  updateAnswer = () => {
     const { result } = this.state;
     this.setState({
       expression: result,
@@ -150,7 +150,7 @@ export default class App extends PureComponent {
           <FlexView flex={1}>
             <LargeGap />
             <OutputContainer expression={expression} result={result}/>
-            <InputButtonsContainer onButtonPress={this.handleEvent} onClearLongPressed={this.handleLongPress} />
+            <InputButtonsContainer onButtonPress={this.handleEvent} onLongPressed={this.handleLongPress} />
           </FlexView>
         </Wrapper>
       </ThemeProvider>

@@ -4,6 +4,7 @@ exports[`OutputContainer renders the section that displays the result of the cal
 <Styled(View)
   alignItems="flex-end"
   flex={3}
+  gutter={true}
 >
   <Styled(Styled(View))
     flex={6}

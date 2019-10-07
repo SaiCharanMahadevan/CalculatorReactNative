@@ -1,15 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`InputButtonsContainer calls \`onButtonPress\` with the relevant value when a button is pressed 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "7",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`InputButtonsContainer calls \`onLongPressed\` with the relevant value when a button is long pressed 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "CLEAR",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
 exports[`InputButtonsContainer renders the section that displays the input operators and operands 1`] = `
 <Styled(View)
   alignItems="center"
+  className="input-buttons"
   flex={6}
 >
   <Styled(View)
     gap={true}
   >
     <Button
-      label="DELETE"
+      className="clear-button"
+      label="CLEAR"
       onLongPress={[Function]}
       onPress={[Function]}
       operator={true}
@@ -25,6 +59,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="0"
         >
           <Button
+            className="Button00"
             label="7"
             onPress={[Function]}
             operand={true}
@@ -34,6 +69,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="1"
         >
           <Button
+            className="Button01"
             label="8"
             onPress={[Function]}
             operand={true}
@@ -43,6 +79,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="2"
         >
           <Button
+            className="Button02"
             label="9"
             onPress={[Function]}
             operand={true}
@@ -55,6 +92,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="0"
         >
           <Button
+            className="Button10"
             label="4"
             onPress={[Function]}
             operand={true}
@@ -64,6 +102,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="1"
         >
           <Button
+            className="Button11"
             label="5"
             onPress={[Function]}
             operand={true}
@@ -73,6 +112,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="2"
         >
           <Button
+            className="Button12"
             label="6"
             onPress={[Function]}
             operand={true}
@@ -85,6 +125,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="0"
         >
           <Button
+            className="Button20"
             label="1"
             onPress={[Function]}
             operand={true}
@@ -94,6 +135,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="1"
         >
           <Button
+            className="Button21"
             label="2"
             onPress={[Function]}
             operand={true}
@@ -103,6 +145,7 @@ exports[`InputButtonsContainer renders the section that displays the input opera
           key="2"
         >
           <Button
+            className="Button22"
             label="3"
             onPress={[Function]}
             operand={true}
